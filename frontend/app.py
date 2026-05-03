@@ -847,7 +847,8 @@ with gr.Blocks(
           </div>
           <div class="nx-big">
             <span class="nx-big-plain">Research</span>
-            <br>
+          </div>
+          <div class="nx-big">  
             <span class="nx-big-grad">Intelligence</span>
           </div>
           <p class="nx-tagline">
