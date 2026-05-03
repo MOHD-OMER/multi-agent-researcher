@@ -1,0 +1,66 @@
+Folder PATH listing for volume OS
+Volume serial number is 22F4-0B17
+C:.
+|   .env
+|   .env.example
+|   app.py
+|   docker-compose.yml
+|   Dockerfile
+|   README.md
+|   README_SPACES.md
+|   requirements.txt
+|   structure.txt
+|   test_keys.py
+|   __init__.py
+|   
++---agents
+|   |   editor.py
+|   |   fact_checker.py
+|   |   researcher.py
+|   |   writer.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           editor.cpython-310.pyc
+|           fact_checker.cpython-310.pyc
+|           researcher.cpython-310.pyc
+|           writer.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           
++---backend
+|   |   main.py
+|   |   
+|   \---__pycache__
+|           main.cpython-310.pyc
+|           
++---data
++---frontend
+|       app.py
+|       
++---graph
+|   |   workflow.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           workflow.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           
++---tools
+|   |   arxiv_search.py
+|   |   web_search.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           arxiv_search.cpython-310.pyc
+|           web_search.cpython-310.pyc
+|           __init__.cpython-310.pyc
+|           
++---utils
+|       comparison.py
+|       credibility.py
+|       factcheck_dashboard.py
+|       history.py
+|       mindmap.py
+|       __init__.py
+|       
+\---{agents,graph,tools,backend,frontend}
