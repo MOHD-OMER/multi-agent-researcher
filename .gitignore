@@ -1,0 +1,43 @@
+# Environment variables - NEVER commit these
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.conda/
+
+# Data / history (contains personal research runs)
+data/history.json
+data/*.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.log
+test_keys.py
+structure.txt
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# HuggingFace cache
+.cache/
